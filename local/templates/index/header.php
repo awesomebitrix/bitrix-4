@@ -15,17 +15,18 @@ IncludeTemplateLangFile(__FILE__);
 	$Asset->addCss("/local/dist/libs/aos-master/aos.css");
 	$Asset->addCss("/local/dist/libs/hover-master/hover-min.css");
 	$Asset->addJs("/local/dist/js/jquery.min.js");
+    $Asset->addJs("/local/dist/js/common.js");
     $Asset->addJs("/local/dist/libs/bootstrap/js/bootstrap.min.js");
     $Asset->addJs("/local/dist/libs/aos-master/aos.js");
     $Asset->addJs("/local/dist/libs/slick-carousel/slick/slick.min.js");
-	$Asset->addJs("/local/dist/js/common.js");
-
 	?>
 <!--fancybox 3-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 <!--fontawesome-->
 	<script src="https://use.fontawesome.com/1f409c8f81.js"></script>
+<!--input mask-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.mask/1.14.10/jquery.mask.min.js"></script>
 </head>
 
 <body>
